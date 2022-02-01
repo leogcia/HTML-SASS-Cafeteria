@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería SASS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Raleway:wght@700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header header-proceso">
+        <div class="contenido-header contenedor">
+            <div class="barra">
+                <div class="logo">
+                    <img src="build/img/logo.svg" alt="logo cafeteria">
+                </div>
+                <nav class="nav-principal">
+                    <a href="index.html">Inicio</a>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a class="activo" href="proceso.html">Proceso</a>
+                    <a href="menu.html">Menú</a>
+                    <a href="galeria.html">Galeria</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div> <!--.barra-->
+
+            <div class="texto-header">
+                <h1>Los verdaderos expertos del café</h1>
+            </div>
+
+        </div><!--.contenido-header-->
+    </header>
+
+    <main class="contenedor contenido-principal">
+        <div class="proceso-cafe">
+            <div class="imagen">
+                <picture>
+                    <source srcset="build/img/proceso_1.avif" type="image/avif">
+                    <source srcset="build/img/proceso_1.webp" type="image/webp">
+                    <source srcset="build/img/proceso_1.jpg" type="image/jpg">
+                    <img loading="lazy" decoding="async" src="build/img/proceso_1.jpg" lazyalt="imagen" width="500" height="300">
+                </picture>
+            </div>
+            <div class="texto">
+                <h3>Granos de café</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, ipsa. Nam similique perferendis tempora quasi totam, mollitia fuga inventore deleniti minus reiciendis consequuntur voluptatibus consectetur, dolore cum sint nihil dolorem.</p>
+            </div>
+        </div> <!--.proceso-cafe-->
+        
+        <div class="proceso-cafe">
+            <div class="imagen">
+                <picture>
+                    <source srcset="build/img/proceso_2.avif" type="image/avif">
+                    <source srcset="build/img/proceso_2.webp" type="image/webp">
+                    <source srcset="build/img/proceso_2.jpg" type="image/jpg">
+                    <img loading="lazy" decoding="async" src="build/img/proceso_2.jpg" lazyalt="imagen" width="500" height="300">
+                </picture>
+            </div>
+            <div class="texto">
+                <h3>Tostar el café</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, ipsa. Nam similique perferendis tempora quasi totam, mollitia fuga inventore deleniti minus reiciendis consequuntur voluptatibus consectetur, dolore cum sint nihil dolorem.</p>
+            </div>
+        </div> <!--.proceso-cafe-->
+
+        <div class="proceso-cafe">
+            <div class="imagen">
+                <picture>
+                    <source srcset="build/img/proceso_3.avif" type="image/avif">
+                    <source srcset="build/img/proceso_3.webp" type="image/webp">
+                    <source srcset="build/img/proceso_3.jpg" type="image/jpg">
+                    <img loading="lazy" decoding="async" src="build/img/proceso_3.jpg" lazyalt="imagen" width="500" height="300">
+                </picture>
+            </div>
+            <div class="texto">
+                <h3>Empacar el café</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, ipsa. Nam similique perferendis tempora quasi totam, mollitia fuga inventore deleniti minus reiciendis consequuntur voluptatibus consectetur, dolore cum sint nihil dolorem.</p>
+            </div>
+        </div> <!--.proceso-cafe-->
+
+        <div class="proceso-cafe">
+            <div class="imagen">
+                <picture>
+                    <source srcset="build/img/proceso_4.avif" type="image/avif">
+                    <source srcset="build/img/proceso_4.webp" type="image/webp">
+                    <source srcset="build/img/proceso_4.jpg" type="image/jpg">
+                    <img loading="lazy" decoding="async" src="build/img/proceso_4.jpg" lazyalt="imagen" width="500" height="300">
+                </picture>
+            </div>
+            <div class="texto">
+                <h3>Moler granos de café</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, ipsa. Nam similique perferendis tempora quasi totam, mollitia fuga inventore deleniti minus reiciendis consequuntur voluptatibus consectetur, dolore cum sint nihil dolorem.</p>
+            </div>
+        </div> <!--.proceso-cafe-->
+
+        <div class="proceso-cafe">
+            <div class="imagen">
+                <picture>
+                    <source srcset="build/img/proceso_5.avif" type="image/avif">
+                    <source srcset="build/img/proceso_5.webp" type="image/webp">
+                    <source srcset="build/img/proceso_5.jpg" type="image/jpg">
+                    <img loading="lazy" decoding="async" src="build/img/proceso_5.jpg" lazyalt="imagen" width="500" height="300">
+                </picture>
+            </div>
+            <div class="texto">
+                <h3>Disfrutar una taza</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, ipsa. Nam similique perferendis tempora quasi totam, mollitia fuga inventore deleniti minus reiciendis consequuntur voluptatibus consectetur, dolore cum sint nihil dolorem.</p>
+            </div>
+        </div> <!--.proceso-cafe-->
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor contenido-footer bg-white">
+            <div class="footer-box ubicacion">
+                <h3>Ubicación</h3>
+                <p>Eligio Ancona 86</p>
+                <p>Ciudad de México</p>
+            </div>
+            <div class="footer-box reservacion">
+                <h3>Reservación</h3>
+                <p>Tel. 5531-853510</p>
+                <a href="tel:+5531-853510">Llamar</a>
+            </div>
+            <div class="footer-box Horario">
+                <h3>Horario</h3>
+                <p>Lun-Jue: 11:00 - 22:00</p>
+                <p>Vie-Sab: 09:00 - 24:00</p>
+                <p>Domingo: Cerrado</p>
+            </div>
+        </div> <!--.footer-contenido-->
+
+        <p class="copyright">Todos los derechos reservados. La cafetería</p>
+    </footer>
+</body>
+</html>
